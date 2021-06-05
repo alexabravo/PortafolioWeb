@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  .lead {
+    font-weight: 400;
+  }
+  .bg-danger {
+    background-color: var(--primary-color) !important;
+  }
+  .Header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+  }
+  .Header h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 5.5rem;
+    position: absolute;
+  }
+  .Header p {
+    margin-top: 125px;
+  }
+
+  .underline {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+  }
+
+  .effect2 {
+    position: relative;
+    width: 70%;
+    background: black;
+    padding: 5%;
+    margin: 10% auto;
+    border-bottom: solid 1px rgb(255, 255, 255) !important;
+  }
+  
+  .fotito {
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .about-text {
+    width: 80%;
+    padding: 2%;
+    color: blanchedalmond;
+  }
+  .line {
+    color: var(--primary-color);
+    font-weight: 500;
+  }
+  .About-title-box {
+    box-sizing: border-box;
+    width: 50%;
+    padding-bottom: 5px;
+    border-bottom: solid 2pxvar (--primary-color);
+    margin-bottom: 15px;
+  }
+
+  .third {
+    width: 75%;
+    margin: 10% auto;
+    align-items: center;
+    padding: 3%;
+    justify-content: center;
+  }
+  .project-card {
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 48px 100px 0;
+    color: #fff;
+  }
+  .project-card h2 {
+    color: var(--primary-color);
+    margin-top: 10px;
+    margin-left: 3%;
+    font-weight: 500;
+  }
+  .project-card h2:hover {
+    color: var(--hover-color);
+    text-decoration: none;
+  }
+  .project-card h3 {
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 3%;
+  }
+  .image-project {
+    height: 300px;
+    width: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer !important;
+  }
+  .img-pro {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .image-project:hover .img-pro {
+    transform: scale(1.2);
+  }
+  .pp-head {
+    text-align: center;
+  }
+  .pp-head-line {
+    box-sizing: border-box;
+    width: 30%;
+    padding-bottom: 5px;
+    border-bottom: solid 2px var(--primary-color);
+    margin-bottom: 15px;
+  }
+  .pp-text {
+    font-size: 1.5rem;
+  }
+
+  .half form input,
+  textarea {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid white;
+  }
+  .half form textarea {
+    padding-bottom: 45px;
+  }
+  .half form input:focus,
+  textarea:focus {
+    border-radius: 5px;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid var(--primary-color);
+  }
+  .half form button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    box-shadow: none;
+    outline: 0;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .half form button:hover {
+    background-color: var(--hover-color);
+  }
+  .half form {
+    padding: 3rem 1rem;
+  }
+  .half p {
+    padding: 3rem 1rem 0 1rem;
+    text-align: center;
+  }
+  .inline-button {
+    display: inline;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+}
+  .project-name {
+    text-decoration: none;
+}
+
+  .vistaBoton {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: #000;
+    outline: #000;
+    position: absolute;
+    padding: 5px 15px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    left: 44%;
+    top: 90%;
+  }
+
+  .vistaBoton:active {
+    outline: 0;
+  }
+  .vistaBoton:hover {
+    background-color: var(--hover-color);
+  }
+
+  .borde {
+    position: relative;
+    top: 10%;
+    width: 12em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-family: "Anonymous Pro", monospace !important;
+    color: white;
+  }
+  .anim-typewriter {
+    animation: typewriter 4s steps(27) 1s 1 normal both,
+      blinkTextCursor 0.5s steps(27) infinite normal;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 15em;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(25, 25, 25, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  ::-moz-selection {
+    color: #fff;
+    background: var(--primary-color);
+  }
+  ::selection {
+    color: #fff;
+    background: var(--primary-color);
+  }
+  @media (max-width: 1300px) {
+    .effect2 {
+      width: 100%;
+    }
+  }
+  @media (max-width: 800px) {
+    .lead {
+      font-weight: 300;
+    }
+    .Header h1 {
+      font-size: 2.5rem;
+    }
+    .borde {
+      font-size: 80%;
+      top: 5.5%;
+    }
+    .underline {
+      text-decoration-color: (0, 0, 0, 0.1);
+    }
+    .about-text {
+      width: 100%;
+      text-align: center;
+    }
+    .line::before {
+      bottom: 590px;
+    }
+    .effect2 {
+      width: 100%;
+    }
+    .skills {
+      padding: 10% 5%;
+    }
+    .third {
+      width: 100%;
+    }
+    .project-card {
+      width: 100% !important;
+    }
+    .image-project {
+      width: 100% !important;
+    }
+    .third {
+      padding: 5%;
+    }
+    .pp-head-line {
+      width: 70%;
+    }
+    
+    .vistaBoton {
+      left: 18%;
+      font-size: 1rem;
+    }
+
+  }
+  

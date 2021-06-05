@@ -1,0 +1,46 @@
+.fotito{
+    background-image: url('../../imagenes/foto.jpeg');
+}
+
+.p1{
+    background-image: url('../../imagenes/html.PNG');
+    cursor: none;    
+}
+
+.p2{
+    background-image: url('../../imagenes/css.PNG');
+    cursor: none;
+}
+.p3{
+    background-image: url('../../imagenes/chat.PNG');
+    cursor: none;
+}
+
+.p4{
+    background-image: url('../../imagenes/memoria.PNG');
+    cursor: none;    
+}
+.p5{
+    background-image: url('../../imagenes/calculadora.PNG');
+    cursor: none;
+}
+.p6{
+    background-image: url('../../imagenes/proyecto.PNG');
+    cursor: none;
+}
+
+
+.hob1{
+    background-image: url('../../imagenes/flores.jpeg');
+    cursor: none;
+}
+
+.hob2{
+    background-image: url('../../imagenes/netflix.jpg');
+    cursor: none;
+}
+
+.hob3{
+    background-image: url('../../imagenes/bebe.jpeg');
+    cursor: none;
+}
